@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--android:background="@android:color/white"-->
+
+    <!--<View-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="298dp"-->
+        <!--android:background="@color/bg_color" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:id="@+id/ll_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="海 量 资 讯"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="24sp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="明 星 动 态 、 音 乐 热 点 尽 收 眼 底"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="13sp" />-->
+    <!--</LinearLayout>-->
+
+
+    <FrameLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/cv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/af2">
+        <!--android:layout_below="@id/ll_title"-->
+        <ImageView
+            android:id="@+id/iv_ael"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ael" />
+
+        <ImageView
+            android:id="@+id/iv_aet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/aet" />
+    </FrameLayout>
+
+
+</RelativeLayout>

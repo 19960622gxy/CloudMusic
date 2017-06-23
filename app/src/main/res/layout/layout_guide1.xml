@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--android:background="@android:color/white"-->
+
+    <!--<View-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="298dp"-->
+        <!--android:background="@color/bg_color" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:id="@+id/ll_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+        <!--&lt;!&ndash;textSwither 可做到切换效果&ndash;&gt;-->
+        <!--&lt;!&ndash;<TextSwitcher&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="个 性 推 荐"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="24sp" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<TextSwitcher&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="8dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="每 天 为 你 量 身 推 荐 最 合 口 味 的 好 音 乐"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="13sp" />&ndash;&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="个 性 推 荐"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="24sp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="每 天 为 你 量 身 推 荐 最 合 口 味 的 好 音 乐"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="13sp" />-->
+    <!--</LinearLayout>-->
+
+
+    <FrameLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/cv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/af2">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/aej" />
+
+
+        <ImageView
+            android:id="@+id/iv_aes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/aes" />
+    </FrameLayout>
+
+
+</RelativeLayout>

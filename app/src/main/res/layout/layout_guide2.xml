@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--android:background="@android:color/white"-->
+
+    <!--<View-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="298dp"-->
+        <!--android:background="@color/bg_color" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:id="@+id/ll_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="精 彩 评 论"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="24sp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="4 亿 多 条 有 趣 的 故 事 ，听 歌 再 不 孤 单"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="13sp" />-->
+    <!--</LinearLayout>-->
+
+
+    <FrameLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/cv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/af2">
+        <!--android:layout_below="@id/ll_title"-->
+
+        <ImageView
+            android:id="@+id/iv_aek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/aek" />
+
+        <ImageView
+            android:id="@+id/iv_aet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="120dp"
+            android:src="@mipmap/aet" />
+
+        <ImageView
+            android:id="@+id/iv_aes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/aes" />
+    </FrameLayout>
+
+
+</RelativeLayout>

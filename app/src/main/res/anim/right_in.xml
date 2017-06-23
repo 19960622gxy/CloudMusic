@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  从右往左滑动-->
+    <!--
+    平移  正方向向左
+    -->
+    <translate
+        android:duration="500"
+        android:fromXDelta="100%"
+        android:toXDelta="0"/>
+    <!--透明度 动画  R。anim。可以调用-->
+    <alpha
+        android:duration="500"
+        android:fromAlpha="0"
+        android:toAlpha="1.0"/>
+
+
+</set>

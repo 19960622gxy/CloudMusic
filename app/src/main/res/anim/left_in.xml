@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--进入    -100  从左往右滑动
+      R。anim。可以调用  系统也有加一个andriod
+      -->
+    <!--平移-->
+    <!--
+    android:duration="500"  时间  0.5秒的时间效果
+    透明度也可以设置时间 也可以不设置
+     -->
+    <translate
+        android:duration="500"
+        android:fromXDelta="-100%"
+        android:toXDelta="0"/>
+    <!--透明度-->
+    <alpha
+        android:duration="500"
+        android:fromAlpha="0"
+        android:toAlpha="1.0"/>
+
+
+</set>
